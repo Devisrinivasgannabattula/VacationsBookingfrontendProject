@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    font-family:calibri,sans-serif ;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    color: rgb(246, 3, 3);
+}
+h2{
+    font-size:  60px;
+    color: orange;
+}
+.hr{color: red;}
+p{
+    font-size: 25px ;
+    color: gray;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: rgb(128, 128, 128);
+    padding: 10px 25px;
+    border: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+header{
+    background: rgb(42, 247, 251);
+    padding: 25px;
+}
+header h1{
+    color: rgb(243, 131, 4);
+}
+nav{
+    background-color:rgb(217, 234, 117) ; 
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+nav a:hover{
+    background-color: rgb(42, 247, 251);
+    color: rgb(55, 13, 222);
+}
+.home-section{
+    padding: 100px;
+}
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+.our-packages figure{
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    display: inline-block;
+    padding: 15px;
+
+}
+.our-packages figure img{
+    width: 100%;
+
+}
+.our-packages figure figcaption{
+    font-size: 30px;
+}
+.our-packages figure p{
+    font-size: 18px;
+}
+.main-footer{
+    background-color: greenyellow;
+    padding: 20px;
+    margin-top: 20px;
+}

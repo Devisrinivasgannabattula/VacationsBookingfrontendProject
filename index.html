@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+  <title>My Booking</title>
+</head>
+<body bgcolor="lightyellow">
+
+  <header>
+    <h1>Vacations Booking</h1>
+  </header>
+  <br>
+  <nav>
+    <a href="http://127.0.0.1:5500/#">Home</a>
+    <a href="https://www.visitacity.com/en/cairns?campaginid=602218795&adgroupid=1294125623022079&targetid=kwd-80883104191809&utm_source=bing&utm_medium=cpc&utm_campaign=Cairns%20Itineraries%20G-REST-In-OCE&utm_term=6%20day%20cairns%20itinerary&utm_content=6%20Days">Places</a>
+    <a href="https://www.bing.com/ck/a?!&&p=0168018cf417f0abJmltdHM9MTcwNDg0NDgwMCZpZ3VpZD0zMWQyYzc0Yi0zODZmLTZiNzUtMTNhOS1kNGUzMzkxYzZhMWMmaW5zaWQ9NTI0Nw&ptn=3&ver=2&hsh=3&fclid=31d2c74b-386f-6b75-13a9-d4e3391c6a1c&psq=galary+for+tousrist+places+url&u=a1aHR0cHM6Ly93d3cuaG9saWRpZnkuY29tL2NvbGxlY3Rpb25zL3RvdXJpc3QtcGxhY2VzLWluLWluZGlhLw&ntb=1">Packages</a>
+    <a href="https://www.bing.com/aclk?ld=e8MUznP5lpEdNwJ8refcxeajVUCUxSBeq19-7luNm3nQM6aTJm0QszI8u__8wrfPLf8Gtfa79sCoNarZYf2nC0Uawt0sKw2nNifl8xMbg_tn28fL706_SKZ-exYfyDGVnUUzl-wJX50AmDvDDsISCFCtCj09u72pHhZCfEfQE6APydhR_lnGBEyhgPteON1Qs_9rv08A&u=aHR0cHMlM2ElMmYlMmZ3d3cudmVyc2FpbGxlcy1wYWxhY2UtdGlja2V0cy5jb20lMmYlM2Ztc2Nsa2lkJTNkZWM4ZGUyNTNiMmM0MTViNjUzOWU4N2NkNzlmMWY4MDclMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RQYXJpcyUyNTIwLSUyNTIwUGFsYWNlJTI1MjBvZiUyNTIwVmVyc2FpbGxlcyUyNTIwLSUyNTIwRW5nbGlzaCUyNTIwLSUyNTIwUmVzdCUyNTIwb2YlMjUyMFdvcmxkJTI1MjAtJTI1MjBTZWFyY2glMjUyMC0lMjUyMEFsbCUyNTIwLSUyNTIwQWxsJTI1MjAtJTI1MjBjaWQyNjklMjZ1dG1fdGVybSUzZHRvdXIlMjUyMGNoYXRlYXUlMjUyMHZlcnNhaWxsZXMlMjZ1dG1fY29udGVudCUzZFRvdXJzJTI1MjAtJTI1MjBCcm9hZCUyNTIwLSUyNTIwRW5nbGlzaCUyNTIwLSUyNTIwQWxsJTI1MjAtJTI1MjBDb252ZXJ0ZWQ&rlid=ec8de253b2c415b6539e87cd79f1f807&ntb=1">Gallery</a>
+    <a href="https://www.bing.com/aclk?ld=e8an8Ighx9ZqBOQukO6mgglDVUCUzwPg-Dx7WhI7FHsr_LYQuWhXBtZpVpNbBPex3EWj13MKvDuFAiepTJTxzgV9iMppV6FIcrUWoFZNeNGr_cwfn_IPWS9oP4DqK3jZJhcxoZoTT61qFZellBW7K9QmVK_VEstR_41A0rNoZcxRsCaf15JeyirzZnu0r__860wd34zQ&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZnRlbmVtZW50LW11c2V1bS1sMzM2NyUyZmd1aWRlZC10b3Vycy10YzExNDQlMmYlM2ZjbXAlM2RiaW5nJTI2YWRfaWQlM2Q3ODQ3Nzg0NzQ3OTc2NiUyNmFkZ3JvdXBfaWQlM2QxMjU1NjQyOTI3OTIzODIwJTI2YmlkX21hdGNoX3R5cGUlM2RiYiUyNmNhbXBhaWduX2lkJTNkNzEwMTIxMzcwJTI2ZGV2aWNlJTNkYyUyNmZlZWRfaXRlbV9pZCUzZCUyNmtleXdvcmQlM2QtbDMzNjclMjUyRiUyNmxvY19pbnRlcmVzdF9tcyUzZCUyNmxvY19waHlzaWNhbF9tcyUzZDE2NDclMjZtYXRjaF90eXBlJTNkYiUyNm1zY2xraWQlM2RkNjU5MzkyN2E4ZWUxZmQ1NjUyNzVjYjk2MjIzMjBmNiUyNm5ldHdvcmslM2RvJTI2cGFydG5lcl9pZCUzZENEOTUxJTI2dGFyZ2V0X2lkJTNkZGF0LTIzMzAyNzc0NTY0MDg0MjclM2FhdWQtODA2MjU5MTEyJTI2dXRtX2FkZ3JvdXAlM2RsYyUyNTNEMzM2NyUyNTNBdGVuZW1lbnQlMjUyMG11c2V1bSUyNTdDZm4lMjUzRGYxJTI1N0NhZ3QlMjUzRGRzYSUyNnV0bV9jYW1wYWlnbiUzZGRjJTI1M0Q4JTI1M0F1cyUyNTdDbGMlMjUzRDMzNjclMjUzQXRlbmVtZW50JTI1MjBtdXNldW0lMjU3Q2N0JTI1M0Rjb3JlJTI1N0NsbiUyNTNEMjklMjUzQWVuJTI1N0N0YyUyNTNEYWxsJTI2dXRtX2tleXdvcmQlM2QtbDMzNjclMjUyRiUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV9xdWVyeSUzZHRvdXJpc20lMjUyMGdhbGxlcnklMjUyMHdlYnNpdGUlMjZ1dG1fc291cmNlJTNkYmluZw&rlid=d6593927a8ee1fd565275cb9622320f6&ntb=1">Contact</a>
+  </nav><br>
+  <div><input type="text" placeholder="Search.." name="search"></div>
+  <p style="background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fas1.ftcdn.net%2Fv2%2Fjpg%2F02%2F08%2F86%2F78%2F1000_F_208867804_JzVyx3PUskTGwDod3V3PM9TcEgioJw7S.jpg&tbnid=QtmfAVLc6dpn3M&vet=12ahUKEwjtn9edwNSDAxVcjmMGHdQmBj4QMyhGegUIARCjAg..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fimages%2Ftravel-around-the-world-vector-design-with-famous-landmarks-and-tourist-destination-of-different-countries-and-places-in-blue-background-vector-illustration%2F208867804&docid=t7PDk9ap5alGIM&w=1000&h=757&q=tourist%20background%20images&ved=2ahUKEwjtn9edwNSDAxVcjmMGHdQmBj4QMyhGegUIARCjAg');"></p>
+  <section class="home-section">
+    <h1>Enjoy the holidays</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sint quae quaerat quis possimus tempore. Blanditiis voluptas totam reiciendis, dolor quo nemo vitae iste impedit eligendi neque.</p>
+    <button class="button"  submit="https://www.bing.com/ck/a?!&&p=0168018cf417f0abJmltdHM9MTcwNDg0NDgwMCZpZ3VpZD0zMWQyYzc0Yi0zODZmLTZiNzUtMTNhOS1kNGUzMzkxYzZhMWMmaW5zaWQ9NTI0Nw&ptn=3&ver=2&hsh=3&fclid=31d2c74b-386f-6b75-13a9-d4e3391c6a1c&psq=galary+for+tousrist+places+url&u=a1aHR0cHM6Ly93d3cuaG9saWRpZnkuY29tL2NvbGxlY3Rpb25zL3RvdXJpc3QtcGxhY2VzLWluLWluZGlhLw&ntb=1">Book Now</button>
+  </section>
+  
+<hr><hr>
+  <section class="Places-section">
+    <h2>Places to Visit</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur minima, iure doloremque est neque voluptates praesentium corrupti incidunt magnam, tenetur unde eum! Enim eveniet doloremque, incidunt aut animi necessitatibus quidem!</p>
+    <div>
+      <img src="images/pexels-max-avans-5092885.jpg" alt="tourist" width="710" height="600" align="center-left">
+      <img src="images/pexels-andrea-piacquadio-3769118.jpg" alt="tourist" width="700" height="600" align="center-left">
+      <img src="images/pexels-maarten-van-den-heuvel-4490702.jpg" alt="tourist" width="700" height="600">
+      <img src="images/bg-image.jpg" alt="tourist"  width="700" height="600">
+      <img src="images/pexels-nicolas-2267339.jpg" alt="tourist" width="700" height="600">
+      <img src="images/pexels-quang-nguyen-vinh-2161449.jpg" alt="tourist" width="700" height="600">
+      <img src="images/pexels-spencer-davis-4356143.jpg" alt="tourist" width="700" height="600">
+      <img src="images/pexels-te-lensfix-1371360.jpg" alt="tourist" width="700" height="600">
+    </div>
+  </section>
+  <section class="our-packages">
+    <h1>Our Packages</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quibusdam iure esse exercitationem vitae blanditiis. Vero ratione neque consequuntur quos!</p>
+    <div>
+    <figure>
+      <img src="images/pexels-nicolas-2267339.jpg" alt="paris" width="200" height="180">
+      <figcaption>Paris</figcaption>
+      <p>The most romantic city in the world, Paris is a global center for art, fashion, gastronomy, and culture. </p>
+      <figcaption>&#8377;50,000</figcaption>
+      <button class="button">Book Now</button>
+    </figure>
+    <figure>
+      <img src="images/pexels-pixabay-358457.jpg" alt="Victoriawatefalls" width="200" height="200">
+      <figcaption>Victoria waterfalls </figcaption>
+      <p>Victoria waterfalls zambia,zimbabwe and culture. </p>
+      <figcaption>&#8377;56,000</figcaption>
+      <button class="button">Book Now</button>
+    </figure>
+    <figure>
+      <img src="images/pexels-maahid-photos-3881104.jpg" alt="Tajmahal" width="200" height="180">
+      <figcaption>Tajmahal,Agra</figcaption>
+      <p>Taj Mahal Taj Mahal is famous for Own beauty and one of the wonders of the world. </p>
+      <figcaption>&#8377;15,000</figcaption>
+      <button class="button">Book Now</button>
+    </figure>
+    </div>
+    <div>
+      <figure>
+        <img src="images/pexels-josh-hild-2422259.jpg" alt="Amalficoast" width="200" height="105">
+        <figcaption>Amalficoast,italy</figcaption>
+        <p>The Amalfi Coast (Italian: Costiera amalfitana) is a stretch of coastline in southern Italy overlooking the Tyrrhenian Sea and the Gulf of Salerno. </p>
+        <figcaption>&#8377;60,000</figcaption>
+        <button class="button">Book Now</button>
+      </figure>
+      <figure>
+        <img src="images/pexels-daniel-bendig-887848.jpg" alt="STATUE" width="200" height="108">
+        <figcaption>Statue of Liberty,USA </figcaption>
+        <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in US. </p>
+        <figcaption>&#8377;30,000</figcaption>
+        <button class="button">Book Now</button>
+      </figure>
+      <figure>
+        <img src="images/pexels-alka-jha-6146579.jpg" alt="piramids" width="200" height="149">
+        <figcaption>Pyramids,Egypt</figcaption>
+        <p>The Pyramids of Giza are iconic colossal structures located near Cairo in Egypt.</p>
+        <figcaption>&#8377;55,000</figcaption>
+        <button class="button">Book Now</button>
+      </figure>
+      </div>
+  </section>
+  <footer class="main-footer">
+    <h4>Vacations Booking @2024</h4>
+    <span>All Rights Reserved</span>
+    <span>Developed by Devisrinivas</span>
+  </footer>
+</body>
+</html>
